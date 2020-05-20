@@ -19,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
+        setUpNavigation();
+    }
+
+    private void setUpNavigation() {
         replaceFragment(getSupportFragmentManager(), new HomeFragment(), R.id.container);
         bottomNavigationView.setOnNavigationItemSelectedListener(menuItem ->{
             switch (menuItem.getItemId()){
