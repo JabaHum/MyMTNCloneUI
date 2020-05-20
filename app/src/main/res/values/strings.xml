@@ -13,4 +13,6 @@
     <string name="combo">Combo</string>
     <string name="data">Data</string>
     <string name="sms">SMS</string>
+    <string name="what_do_you_need_help_with">What do you need help with ?</string>
+    <string name="having_a_problem">Having a problem ?</string>
 </resources>
