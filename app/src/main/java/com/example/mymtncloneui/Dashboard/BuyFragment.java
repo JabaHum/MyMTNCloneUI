@@ -1,4 +1,4 @@
-package com.example.mymtncloneui;
+package com.example.mymtncloneui.Dashboard;
 
 import androidx.fragment.app.Fragment;
 
