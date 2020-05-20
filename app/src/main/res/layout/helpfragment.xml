@@ -60,11 +60,12 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_height="match_parent"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:layout_centerVertical="true"
-                        android:layout_marginEnd="80dp"
+                        android:textAlignment="textStart"
                         android:text="@string/log_a_complaint" />
                 </RelativeLayout>
 
@@ -83,11 +84,13 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="120dp"
                         android:text="@string/feedback"
-                        android:layout_width="wrap_content"
+                        android:layout_marginEnd="20dp"
+
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -125,11 +128,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/call_or_email_us"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -147,11 +151,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="120dp"
                         android:text="@string/chat_to_us"
-                        android:layout_width="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -169,11 +174,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/find_a_store_near_you"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -210,11 +216,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/faqs"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -232,11 +239,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/data_calculator"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -274,11 +282,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/security"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -296,11 +305,12 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:layout_marginEnd="80dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
                         android:text="@string/legal"
-                        android:layout_width="wrap_content"
+                        android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

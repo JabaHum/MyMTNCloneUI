@@ -37,11 +37,12 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-                            android:layout_marginEnd="80dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
                             android:layout_centerVertical="true"
-                            android:layout_width="wrap_content"
+                            android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
+                            android:textAlignment="textStart"
                             android:text="@string/staysafe_stayconnected" />
                     </RelativeLayout>
 
@@ -66,12 +67,12 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-
-                            android:layout_marginEnd="80dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
                             android:layout_centerVertical="true"
-                            android:layout_width="wrap_content"
+                            android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
+                            android:textAlignment="textStart"
                             android:text="@string/go_to_mtn_momo" />
                     </RelativeLayout>
 
@@ -111,12 +112,12 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-
-                            android:layout_marginEnd="80dp"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
                             android:layout_centerVertical="true"
-                            android:layout_width="wrap_content"
+                            android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentEnd="true"
+                            android:textAlignment="textStart"
                             android:text="0.0/-" />
                     </RelativeLayout>
 
@@ -139,12 +140,12 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-
-                            android:layout_marginEnd="80dp"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_alignParentEnd="true"
+                            android:textAlignment="textStart"
                             android:text=" 300 MBs" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -165,12 +166,39 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-
-                            android:layout_marginEnd="80dp"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_alignParentEnd="true"                            android:text=" 120 SMS" />
+                            android:text=" 120 SMS"
+                            android:textAlignment="textStart" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_launcher" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text=" 30 Minutes"
+                            android:textAlignment="textStart" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -191,36 +219,12 @@
 
                         <TextView
 
-                            android:layout_marginEnd="80dp"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="120dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
-                            android:layout_alignParentEnd="true"                            android:text=" 30 Minutes" />
-                    </RelativeLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp">
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@mipmap/ic_launcher" />
-
-                        <TextView
-
-                            android:layout_marginEnd="80dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_alignParentEnd="true"                            android:gravity="center_horizontal"
+                            android:layout_marginEnd="20dp"
+                            android:textAlignment="textStart"
                             android:text=" 235 Points" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
