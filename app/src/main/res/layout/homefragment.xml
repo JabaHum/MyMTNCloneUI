@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -41,6 +38,7 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
+
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
@@ -114,7 +112,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:text="/-" />
+                            android:text="0.0/-" />
                     </RelativeLayout>
 
 
@@ -139,7 +137,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:text="MB" />
+                            android:text=" 300 MB" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -162,7 +160,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:text="SMS" />
+                            android:text=" 120 SMS" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -185,7 +183,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
-                            android:text="Minutes" />
+                            android:text=" 30 Minutes" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -209,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:gravity="center_horizontal"
-                            android:text="Points" />
+                            android:text=" 235 Points" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
