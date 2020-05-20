@@ -41,39 +41,44 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Log a complaint"
-                        android:layout_width="match_parent"
+                        android:text="@string/log_a_complaint"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="FeedBack"
-                        android:layout_width="match_parent"
+                        android:text="@string/feedback"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -81,112 +86,128 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:text="Contact Us"
+                android:gravity="center"
+                android:text="@string/contact_us"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Call or Email Us"
-                        android:layout_width="match_parent"
+                        android:text="@string/call_or_email_us"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Chat to us"
-                        android:layout_width="match_parent"
+                        android:text="@string/chat_to_us"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Find a store near you"
-                        android:layout_width="match_parent"
+                        android:text="@string/find_a_store_near_you"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:text="Learn More"
+                android:gravity="center"
+                android:text="@string/learn_more"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="FAQs"
-                        android:layout_width="match_parent"
+                        android:text="@string/faqs"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text=" Data Calculator"
-                        android:layout_width="match_parent"
+                        android:text="@string/data_calculator"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -194,48 +215,55 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:text="Legal"
+                android:gravity="center"
+                android:text="@string/legal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Security"
-                        android:layout_width="match_parent"
+                        android:text="@string/security"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
                     <TextView
-                        android:text="Legal"
-                        android:layout_width="match_parent"
+                        android:text="@string/legal"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

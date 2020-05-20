@@ -15,4 +15,15 @@
     <string name="sms">SMS</string>
     <string name="what_do_you_need_help_with">What do you need help with ?</string>
     <string name="having_a_problem">Having a problem ?</string>
+    <string name="log_a_complaint">Log a complaint</string>
+    <string name="feedback">FeedBack</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="call_or_email_us">Call or Email Us</string>
+    <string name="chat_to_us">Chat to us</string>
+    <string name="find_a_store_near_you">Find a store near you</string>
+    <string name="learn_more">Learn More</string>
+    <string name="faqs">FAQs</string>
+    <string name="data_calculator">Data Calculator</string>
+    <string name="security">Security</string>
+    <string name="legal">Legal</string>
 </resources>
