@@ -43,6 +43,9 @@
                             android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text="@string/staysafe_stayconnected" />
                     </RelativeLayout>
 
@@ -73,6 +76,9 @@
                             android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text="@string/go_to_mtn_momo" />
                     </RelativeLayout>
 
@@ -88,7 +94,9 @@
                 android:layout_margin="5dp"
                 android:gravity="center_horizontal"
                 android:text="@string/your_balances"
-                android:textSize="16sp" />
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -118,6 +126,9 @@
                             android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:textAlignment="textStart"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text="0.0/-" />
                     </RelativeLayout>
 
@@ -146,6 +157,9 @@
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
                             android:textAlignment="textStart"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text=" 300 MBs" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -171,6 +185,9 @@
                             android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text=" 120 SMS"
                             android:textAlignment="textStart" />
                     </RelativeLayout>
@@ -197,6 +214,9 @@
                             android:layout_marginEnd="20dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text=" 30 Minutes"
                             android:textAlignment="textStart" />
                     </RelativeLayout>
@@ -218,13 +238,15 @@
                             android:src="@mipmap/ic_launcher" />
 
                         <TextView
-
                             android:layout_width="match_parent"
                             android:layout_marginStart="120dp"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true"
                             android:layout_marginEnd="20dp"
                             android:textAlignment="textStart"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
                             android:text=" 235 Points" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>

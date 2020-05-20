@@ -26,6 +26,7 @@
                 android:gravity="center"
                 android:text="@string/what_do_you_need_help_with"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="24sp" />
 
             <TextView
@@ -66,6 +67,9 @@
                         android:layout_marginEnd="20dp"
                         android:layout_centerVertical="true"
                         android:textAlignment="textStart"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:text="@string/log_a_complaint" />
                 </RelativeLayout>
 
@@ -89,7 +93,9 @@
                         android:layout_marginStart="120dp"
                         android:text="@string/feedback"
                         android:layout_marginEnd="20dp"
-
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
@@ -103,6 +109,9 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="@string/contact_us"
                 android:layout_width="match_parent"
@@ -128,6 +137,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="120dp"
@@ -151,6 +163,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_centerVertical="true"
                         android:layout_marginStart="120dp"
@@ -174,6 +189,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
@@ -191,6 +209,9 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="@string/learn_more"
                 android:layout_width="match_parent"
@@ -221,6 +242,9 @@
                         android:layout_centerVertical="true"
                         android:layout_marginEnd="20dp"
                         android:text="@string/faqs"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:textAlignment="textStart"
                         android:layout_height="match_parent"/>
                 </RelativeLayout>
@@ -239,6 +263,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
@@ -257,6 +284,9 @@
             android:layout_height="match_parent">
 
             <TextView
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:gravity="center"
                 android:text="@string/legal"
                 android:layout_width="match_parent"
@@ -282,6 +312,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
@@ -305,6 +338,9 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
                         android:layout_width="match_parent"
                         android:layout_marginStart="120dp"
                         android:layout_centerVertical="true"
