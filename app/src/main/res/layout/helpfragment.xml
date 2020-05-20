@@ -58,12 +58,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
+
                     <TextView
-                        android:layout_centerVertical="true"
-                        android:layout_alignParentEnd="true"
-                        android:text="@string/log_a_complaint"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"/>
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="80dp"
+                        android:text="@string/log_a_complaint" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
@@ -81,6 +83,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/feedback"
@@ -122,6 +125,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/call_or_email_us"
@@ -143,6 +147,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/chat_to_us"
@@ -164,6 +169,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/find_a_store_near_you"
@@ -204,6 +210,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/faqs"
@@ -225,6 +232,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/data_calculator"
@@ -266,6 +274,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/security"
@@ -287,6 +296,7 @@
                         android:layout_height="wrap_content"
                         android:src="@mipmap/ic_launcher" />
                     <TextView
+                        android:layout_marginEnd="80dp"
                         android:layout_centerVertical="true"
                         android:layout_alignParentEnd="true"
                         android:text="@string/legal"
