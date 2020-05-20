@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyMTNCloneUI</string>
+    <string name="home">Home</string>
+    <string name="go_to_mtn_momo">Go to MTN MOMO</string>
+    <string name="your_balances">Your Balances</string>
+    <string name="staysafe_stayconnected">#staysafe#stayconnected</string>
+    <string name="send">Send</string>
+    <string name="buy">Buy</string>
+    <string name="help">Help</string>
+</resources>
