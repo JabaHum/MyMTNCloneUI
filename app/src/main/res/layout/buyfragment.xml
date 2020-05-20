@@ -33,6 +33,7 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
+                        android:layout_marginTop="20dp"
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -63,6 +64,7 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
+                        android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -99,12 +101,13 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
+                        android:layout_marginTop="20dp"
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
-                        android:text="Data" />
+                        android:text="@string/data" />
                 </LinearLayout>
 
 
@@ -129,12 +132,13 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
+                        android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="SMS" />
+                        android:text="@string/sms" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -164,12 +168,13 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
+                        android:layout_marginTop="20dp"
                         android:gravity="center_horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
-                        android:text="Combo" />
+                        android:text="@string/combo" />
                 </LinearLayout>
 
 
@@ -194,13 +199,13 @@
                         android:src="@mipmap/ic_launcher" />
 
                     <TextView
-                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
                         android:gravity="center_horizontal"
-                        android:text="Other" />
+                        android:text="@string/other" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>

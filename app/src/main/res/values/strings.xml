@@ -9,4 +9,8 @@
     <string name="help">Help</string>
     <string name="airtime">Airtime</string>
     <string name="minutes">Minutes</string>
+    <string name="other">Other</string>
+    <string name="combo">Combo</string>
+    <string name="data">Data</string>
+    <string name="sms">SMS</string>
 </resources>
