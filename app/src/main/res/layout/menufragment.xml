@@ -53,8 +53,9 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture"
@@ -69,8 +70,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture_round"
@@ -85,8 +87,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture"
@@ -101,8 +104,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture_round"
@@ -117,8 +121,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture"
@@ -133,8 +138,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture_round"
@@ -149,8 +155,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture"
@@ -165,8 +172,9 @@
 
 
             <TextView
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
                 android:drawableLeft="@mipmap/ic_fav_picture_round"
