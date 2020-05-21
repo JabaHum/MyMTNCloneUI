@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture"
+                android:drawableStart="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -66,7 +66,8 @@
                 android:text="@string/home"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -75,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture_round"
+                android:drawableStart="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -83,7 +84,8 @@
                 android:text="@string/profile"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -92,15 +94,16 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture"
+                android:drawableStart="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:text="Subscriptions"
+                android:text="@string/subscriptions"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -109,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture_round"
+                android:drawableStart="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -117,7 +120,8 @@
                 android:text="@string/mtn_services"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -126,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture"
+                android:drawableStart="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -134,7 +138,8 @@
                 android:text="@string/loyality_points"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -143,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture_round"
+                android:drawableStart="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -151,7 +156,8 @@
                 android:text="@string/recommend_mymtn"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -160,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture"
+                android:drawableStart="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -168,7 +174,8 @@
                 android:text="@string/share_on_social_media"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
             <TextView
@@ -177,7 +184,7 @@
                 android:layout_height="wrap_content"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@mipmap/ic_fav_picture_round"
+                android:drawableStart="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
@@ -185,7 +192,8 @@
                 android:text="@string/settings"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:focusable="true" />
 
 
         </LinearLayout>
