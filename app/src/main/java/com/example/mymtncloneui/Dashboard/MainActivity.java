@@ -4,9 +4,11 @@ package com.example.mymtncloneui.Dashboard;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.text.Layout;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         ivNavMenu = findViewById(R.id.ivNavMenu);
         drawerLayout = findViewById(R.id.drawerLayout);
-        //layout = findViewById(R.id.rightDrawerMenu);
+
 
         ivNavMenu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,10 +105,10 @@ public class MainActivity extends AppCompatActivity {
 
     @SuppressLint("WrongConstant")
     private void toggleRightDrawer() {
-        if (drawerLayout.isDrawerOpen(R.id.rightDrawerMenu)) {
-            drawerLayout.closeDrawer(R.id.rightDrawerMenu);
+        if (drawerLayout.isDrawerOpen(Gravity.START)) {
+            drawerLayout.closeDrawer(Gravity.END);
         } else {
-            drawerLayout.openDrawer(R.id.rightDrawerMenu);
+            drawerLayout.openDrawer(Gravity.END);
         }
     }
 }
