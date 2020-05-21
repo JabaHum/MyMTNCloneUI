@@ -1,9 +1,14 @@
 package com.example.mymtncloneui.Dashboard;
 
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.text.Layout;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -13,12 +18,25 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
+    ImageView ivNavMenu;
+    DrawerLayout drawerLayout;
+    Layout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        ivNavMenu = findViewById(R.id.ivNavMenu);
+        drawerLayout = findViewById(R.id.drawerLayout);
+        //layout = findViewById(R.id.rightDrawerMenu);
+
+        ivNavMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                toggleRightDrawer();
+            }
+        });
 
         setUpNavigation();
     }
@@ -81,5 +99,14 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.addToBackStack(backStackName);
         }
         fragmentTransaction.commit();
+    }
+
+    @SuppressLint("WrongConstant")
+    private void toggleRightDrawer() {
+        if (drawerLayout.isDrawerOpen(R.id.rightDrawerMenu)) {
+            drawerLayout.closeDrawer(R.id.rightDrawerMenu);
+        } else {
+            drawerLayout.openDrawer(R.id.rightDrawerMenu);
+        }
     }
 }

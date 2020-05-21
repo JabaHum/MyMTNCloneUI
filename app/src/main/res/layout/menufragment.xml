@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3C3C3C"
+    android:background="#FFF"
     android:fillViewport="true"
     android:orientation="vertical">
 
@@ -15,7 +15,7 @@
             android:id="@+id/navHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#414141"
+            android:background="#FFF"
             android:gravity="center"
             android:orientation="vertical"
             android:paddingTop="30dp"
@@ -25,7 +25,7 @@
                 android:id="@+id/ivProfile"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/ic_profile_picture" />
+                android:src="@mipmap/ic_profile_picture_round" />
 
             <TextView
                 android:textAlignment="center"
@@ -34,17 +34,17 @@
                 android:layout_marginTop="10dp"
                 android:text="Stephen Opwonya"
                 android:ems="4"
+                android:textStyle="bold"
                 android:maxLines="2"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
+                android:textColor="@android:color/black"
+                android:textSize="28sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:text="View Profile"
-                android:textColor="#9E9E9E"
-                android:textSize="14sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_margin="15dp"
+                android:layout_marginTop="5dp"
+                android:background="#4E4E4E" />
         </LinearLayout>
 
         <LinearLayout
@@ -57,156 +57,129 @@
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_home"
+                android:drawableLeft="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Home"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_followers"
+                android:drawableLeft="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Profile"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_transaction"
+                android:drawableLeft="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Subscriptions"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_settings"
+                android:drawableLeft="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="MTN Services"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_settings"
+                android:drawableLeft="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Loyality Points"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_settings"
+                android:drawableLeft="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Recommend myMTN"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_settings"
+                android:drawableLeft="@mipmap/ic_fav_picture"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Share on Social Media"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:background="?selectableItemBackground"
                 android:clickable="true"
-                android:drawableLeft="@drawable/ic_settings"
+                android:drawableLeft="@mipmap/ic_fav_picture_round"
                 android:drawablePadding="20dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:text="Settings"
-                android:textColor="#CCCCCC"
+                android:textColor="@android:color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#4E4E4E" />
+
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
