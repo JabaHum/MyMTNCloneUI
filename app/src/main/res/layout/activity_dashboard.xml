@@ -13,6 +13,6 @@
         android:id="@+id/rightDrawerMenu"
         layout="@layout/menufragment"
         android:layout_height="match_parent"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
         android:layout_gravity="end" />
 </androidx.drawerlayout.widget.DrawerLayout>
